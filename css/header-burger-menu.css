@@ -1,0 +1,26 @@
+* Бургер-меню */
+.header__burger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  font-size: 2rem;
+  color: white;
+}
+
+.header__burger-line {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 4px 0;
+}
+
+/* Іконка бургер-меню на мобільних екранах */
+@media (max-width: 991px) {
+  .header__burger {
+    display: flex;
+  }
+
+  .header__nav {
+    display: none;
+  }
+}
